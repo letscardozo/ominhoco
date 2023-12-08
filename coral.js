@@ -169,7 +169,7 @@ const gameLoop = () => {
     loopId = setTimeout(() => {
     gameLoop()
 
-    }, 300)
+    }, 200)
 }
 
 gameLoop()
